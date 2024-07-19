@@ -5,12 +5,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-CREATE DATABASE tracking;;
+CREATE DATABASE tracking;
 CREATE USER myuser WITH PASSWORD 'mypassword';
 ALTER ROLE myuser SET client_encoding TO 'utf8';
 ALTER ROLE myuser SET default_transaction_isolation TO 'read committed';
 ALTER ROLE myuser SET timezone TO 'UTC';
-GRANT ALL PRIVILEGES ON DATABASE tracking; TO myuser;
+GRANT ALL PRIVILEGES ON DATABASE tracking TO myuser;
 
 
 GRANT ALL PRIVILEGES ON SCHEMA public TO myuser;

@@ -5,7 +5,6 @@ charset-normalizer==3.3.2
 coreapi==2.3.3
 coreschema==0.0.4
 cryptography==42.0.8
-decouple==0.0.7
 Django==5.0.7
 django-cors-headers==4.4.0
 django-rest-swagger==2.2.0
@@ -21,9 +20,11 @@ openapi-codec==1.3.2
 packaging==24.1
 psycopg2-binary==2.9.9
 pycparser==2.22
+python-decouple==3.8
 pytz==2024.1
 PyYAML==6.0.1
 requests==2.32.3
+setuptools==71.0.3
 simplejson==3.19.2
 sqlparse==0.5.0
 typing_extensions==4.12.2

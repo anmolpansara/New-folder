@@ -6,7 +6,7 @@ import requests
 from django.conf import settings
 from django.core.mail import EmailMessage, send_mail
 
-from apps.admin_panel.customs.authentications import (
+from blogapp.customs.authentications import (
     create_access_token,
     create_refresh_token,
     decode_refresh_token,
