@@ -1,0 +1,23 @@
+.env
+/static/
+/staticfiles/
+*.pyc
+*.sqlite3
+.vscode/
+# *migrations/
+*.csv
+/media
+*.xlsx
+*.pub
+.idea/
+static/
+*.env
+*.dot
+/docs/
+astrosphere/media/
+/log
+.venv
+/node_code
+temp.*
+venv
+*.log
